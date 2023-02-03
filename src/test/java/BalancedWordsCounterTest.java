@@ -33,9 +33,9 @@ class BalancedWordsCounterTest {
         BalancedWordsCounter balancedWordsCounter = new BalancedWordsCounter();
 
 
-        assertThrows(RuntimeException.class, () -> {
-            balancedWordsCounter.count(input);
-        });
+        assertThrows(RuntimeException.class, () ->
+                balancedWordsCounter.count(input)
+        );
     }
 
     @Test
@@ -45,9 +45,9 @@ class BalancedWordsCounterTest {
         BalancedWordsCounter balancedWordsCounter = new BalancedWordsCounter();
 
 
-        assertThrows(RuntimeException.class, () -> {
-            balancedWordsCounter.count(input);
-        });
+        assertThrows(RuntimeException.class, () ->
+                balancedWordsCounter.count(input)
+        );
     }
 
 }
